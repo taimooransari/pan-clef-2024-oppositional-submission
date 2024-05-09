@@ -4,7 +4,7 @@ from typing import List, Dict
 
 from sklearn.metrics import f1_score, matthews_corrcoef
 
-from sequence_labeling.span_f1_metric import compute_score_pr
+from span_f1_metric import compute_score_pr
 
 SPAN_EMPTY_LABEL = 'X'
 
